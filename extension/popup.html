@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Code Mentor</title>
+  <link rel="stylesheet" href="css/popup.css" />
+</head>
+<body>
+
+  <header>
+    <span class="logo-icon">⟨/⟩</span>
+    <span class="logo-text">AI Code Mentor</span>
+  </header>
+
+  <div class="container">
+    <textarea id="code" placeholder="Paste your code or DSA problem here..."></textarea>
+
+    <button id="getSelection" class="btn btn-yellow">⊕ Grab Selected Text</button>
+    <button id="analyzeBtn" class="btn btn-green">🔍 Analyze Code</button>
+    <button id="approachBtn" class="btn btn-blue">💡 Get Approach</button>
+
+    <div id="result" class="result hidden"></div>
+
+    <div class="footer-btns">
+      <button id="copyBtn" class="btn-small">⎘ Copy</button>
+      <button id="clearBtn" class="btn-small">✕ Clear</button>
+    </div>
+  </div>
+
+  <script src="js/popup.js"></script>
+</body>
+</html>
