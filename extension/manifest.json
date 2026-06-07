@@ -6,7 +6,7 @@
   "permissions": ["activeTab", "scripting", "storage"],
   "host_permissions": [
     "http://localhost:5000/*",
-    "https://your-deployed-backend.onrender.com/*"
+    "https://ai-code-mentor-extension.onrender.com/*"
   ],
   "background": {
     "service_worker": "js/background.js"

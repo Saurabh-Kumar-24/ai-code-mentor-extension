@@ -1,9 +1,8 @@
 // ─────────────────────────────────────────────────────
 // CONFIG — change this to your deployed URL after deploy
 // ─────────────────────────────────────────────────────
-const API_BASE = "http://localhost:5000";
-// const API_BASE = "https://your-deployed-backend.onrender.com"; // ← uncomment after deploy
-
+//const API_BASE = "http://localhost:5000";
+const API_BASE = "https://ai-code-mentor-extension.onrender.com";
 const resultDiv  = document.getElementById("result");
 const codeInput  = document.getElementById("code");
 const analyzeBtn = document.getElementById("analyzeBtn");
